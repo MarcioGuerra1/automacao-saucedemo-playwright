@@ -17,7 +17,7 @@ module.exports = defineConfig({
   /* 🌟 CONFIGURAÇÕES DE MÍDIA COMPARTILHADAS 🌟 */
   use: {
     /* Define que os testes vão rodar mostrando o navegador na tela por padrão */
-    headless: false,
+    headless: true,
     
     /* 📸 Tira uma foto (screenshot) automaticamente ao final de cada teste */
     screenshot: 'on',
